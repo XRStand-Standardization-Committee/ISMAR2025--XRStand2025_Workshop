@@ -1,0 +1,122 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: #f9f9f9; /* Light background */
+    color: #333333; /* Darker font for contrast */
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White dropdown menu background */
+    color: #333333; /* Darker text for readability */
+    border: 1px solid #e0e0e0; /* Subtle border for definition */
+}
+
+section {
+    scroll-margin-top: 50px; /* Adjust this value to match the navbar height */
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+    background-color: #e0e0e0; /* Light gray button background */
+    color: #333333; /* Dark text for contrast */
+    border: 1px solid #cccccc; /* Subtle button border */
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+    background-color: #f5f5f5; /* Light gray navbar */
+    border-bottom: 1px solid #dddddd; /* Subtle bottom border */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #222222; /* Darker font for headings */
+    font-weight: 100;
+}
+
+p, div {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    color: #333333; /* Dark text for consistency */
+}
+
+date, heavy {
+    font-weight: 900;
+    color: #555555; /* Slightly darker for emphasis */
+}
+
+/* Custom */
+.vertical-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.vertical-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.vertical-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  background-color: #0057b7;
+  border-radius: 50%;
+}
+
+/* Style for the parent numbered list */
+/* Parent list with arrow icons */
+.program-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.program-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: #1a1a1a;
+}
+
+/* Apply arrow only to top-level items inside .program-list */
+.program-list > li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #0057b7;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-nav li a:hover {
+  color: #007BFF !important;
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+}
+
+section h2, section h3 {
+  transition: transform 0.3s;
+}
+
+section h2:hover {
+  transform: scale(1.05);
+}
+
+footer img {
+  transition: transform 0.4s ease;
+}
+footer img:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+
