@@ -1,1 +1,4 @@
 Website Of The 1st International Workshop on Standardization in XR -- XRStand 2025
+
+
+> **Do not delete or rename this repository.** Its GitHub Pages URL is linked from the IEEE ISMAR / IEEE VR conference websites. The page now lives at https://xrstandards.org/ismar2025/ and `index.html` here redirects there. The original page is kept as `index.original.html` (and in git history, tag `original-page`).

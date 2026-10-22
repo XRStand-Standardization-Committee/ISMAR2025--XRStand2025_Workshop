@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="XRStand 2025" content="">
+    <title>XRStand 2025</title>
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+    <link href="./theme/css" rel="stylesheet">
+    <link href="./theme/css(1)" rel="stylesheet">
+    <link href="./theme/bootstrap.min.css" rel="stylesheet">
+    <link href="./theme/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./theme/icon.css" rel="stylesheet">
+    <link href="./theme/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="./theme/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        section {
+            /* padding-top: 10px; */
+            margin-top: -20px;
+            scroll-margin-top: 80px;
+            /* Prevents content overlap by navbar*/
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <nav class="navbar navbar-default navbar-fixed-top" style="font-size:18px; color: #333;"> -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="font-size:18px; background-color: #00d7d7; color: #333;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/xrstandicon.webp" alt="TRUST-XR Logo"
+                        style="height: 30px; margin-right: 10px; display: inline-block; vertical-align: middle;">
+                    <span style="color: #080808; font-size: 20px; vertical-align: middle;">XRStand 2025</span>
+                </a>
+
+
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#workshop-description" style="color: #333;">About</a></li>
+                    <!-- <li><a href="#target-researchers" style="color: #333;">Intended Participants</a></li> -->
+                    <li><a href="#location" style="color: #333;">Logistics</a></li>
+                    <li><a href="#program" style="color: #333;">Program</a></li>
+                    <li><a href="#organizers" style="color: #333;">Organizers</a></li>
+                    <li><a href="#call-for-paper" style="color: #333;">Call for Papers</a></li>
+
+                    <!-- <li><a href="#important-dates" style="color: #333;">Important Dates</a></li> -->
+                    <!-- <li><a href="https://sensorssp.github.io/sensorssp23/" target="_blank">Past Workshop</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container theme-showcase" role="main">
+        <section id="workshop-description" class="page-header">
+            <!-- <div id="workshop-description" class="page-header"> -->
+            <!-- <img src="images/trustXR.jpg" alt="TRUST-XR 2025 Banner"
+                style="max-width:100%; margin-top:20px; border: 2px solid #ccc; border-radius: 10px;"> -->
+            <!-- <img src="images/trustXR.png" alt="TRUST-XR 2025 Banner"
+     style="max-width:100%; margin: 20px auto 0; border: 2px solid #ccc; border-radius: 10px; display: block;"> -->
+            <!-- <img src="images/xrstandicon.webp" alt="TRUST-XR 2025 Banner"
+            style="width: 10%; height: auto; margin: 30px auto 0; display: block;"> -->
+            <img src="images/ismarBannerXRStand.png" alt="TRUST-XR 2025 Banner"
+     style="width: 50%; height: auto; margin: 10px auto 0; border: 5px solid #ccc; border-radius: 5px; border-color:rgb(54, 50, 50); display: block;">
+            <h2>Workshop Motivation & Scope</h2>
+            <!-- <div style="text-align: center; margin-bottom: 20px;">
+                <img src="images/trustxr-logo.png" alt="TRUST-XR Logo" style="max-width: 300px;">
+            </div> -->
+            <font size="3">
+                <p>
+    The <a href="https://www.ieeeismar.net/2025/committee/standardization/" target="_blank" rel="noopener noreferrer">Standardization Committee</a> at ISMAR 2025 has been established to strengthen the continuous collaboration between academic research and standardization efforts, with the goal of enhancing the value of both. By promoting the development and dissemination of coherent, widely adopted standards along with standardized tools, methodologies, datasets, and benchmarks, these efforts aim not only to ensure rigor and interoperability across XR domains, but also to bridge the persistent gap between academic inquiry and social implementation.
+    <strong>XRStand: 1st International Workshop on Standardization in XR</strong> has been designed as a concrete initiative to advance the mission and vision of the <a href="https://www.ieeeismar.net/2025/committee/standardization/" target="_blank" rel="noopener noreferrer"><strong>ISMAR 2025 Standardization Committee</strong></a>. This workshop welcomes contributions and discussions related to a broad interpretation of standardization in XR. We aim to highlight not only formal standardization initiatives, but also community-driven efforts, tool development, and conceptual frameworks that support the advancement and social implementation of immersive technologies.
+</p>
+
+            </font>
+            <!-- Trimmed text for brevity -->
+            </p>
+            <!-- </div> -->
+        </section>
+
+        <section id="target-researchers" class="page-header">
+            <div class="container theme-showcase" role="main">
+            <font size="3">
+                <div class="page-header">
+                    <h3></h3>
+                    <font size="3">
+                        <blockquote style=" padding: 2px; background-color: #EEEEEE;">
+                            <font size="3">
+                                <p><strong>The XRStand 2025 workshop welcomes participation from:</strong></p>
+                                <ol>
+                                    <li><strong>Academics & Researchers</strong>, who wish to expand and elaborate their research by gaining insights from standardization and industrial applications.</li>
+                                    <li><strong>Industry Practitioners & Innovators</strong>, who wish to contribute to the development of industry standards necessary for practical work while gaining exposure to the latest practical research presented at ISMAR.</li>
+                                    <li><strong>Standardization Organizations & Consortia</strong>, who wish to gain knowledge of academic breakthroughs, the current state of prototype system implementations, and evaluation results in real-world scenarios at ISMAR to make their standards and standardization activities more beneficial.</li>
+                                </ol>
+                        </blockquote>
+                        <!-- <p>
+                            <strong>Program Overview:</strong>
+                            XRStand 2025 will be a half-day hybrid workshop bringing together researchers, industry practitioners, and standard-setting
+                            bodies to discuss and shape the future of XR standardization. The agenda includes:
+                        </p>
+                        <ol>
+                            <li>
+                                <strong>Opening Remarks:</strong> Revisiting historical ties between ISMAR and XR standardization (Takeshi Kurata)
+                            </li>
+                            <li>
+                                <strong>Keynote Presentation:</strong> Progress in Virtual Worlds Interoperability Standards (ViWISSO) and the Metaverse
+                                Standardization Forum (MSF) (Christine Perey)
+                            </li>
+                            <li>
+                                <strong>Lightning Talks & Poster Session:</strong> Rapid presentations by poster authors highlighting datasets, benchmarks,
+                                tools, taxonomies, and community-driven standardization efforts
+                            </li>
+                            <li>
+                                <strong>Coffee Break:</strong> 30 minutes
+                            </li>
+                            <li>
+                                <strong>Invited Talk:</strong> Revisiting Milgram &amp; Kishino’s Reality–Virtuality Continuum (Missie Smith)
+                            </li>
+                            <li>
+                                <strong>Invited Talk:</strong> Toward Standardized Agent APIs for Large-Scale Social VR Platforms (Takefumi Hiraki)
+                            </li>
+                            <li>
+                                <strong>Panel Discussion &amp; Closing:</strong> Guided discussion on next steps and invitation to continue conversations at
+                                the XRStand booth (Seonji Kim)
+                            </li>
+                        </ol> -->
+
+                        <p>
+                            For any questions or additional details, please send an email to 
+                            <a href="mailto:M-ismar-standard-ml@aist.go.jp">M-ismar-standard-ml@aist.go.jp</a>.
+                        </p>
+                    </font>
+
+                    <!-- </div>  -->
+        </section>
+        </font>
+        <!-- <font size="3"> -->
+        <!-- <font size="3"> -->
+
+        <!-- <section id="location" class="page-header">
+            <h2>Location and Date</h2>
+            <blockquote style="padding: 15px; background-color: #e6f2ff; border-left: 5px solid #050505;">
+                <p>
+                    The XRStand 2025 workshop will be held in conjunction with <strong>ISMAR 2025</strong> in
+                    <strong>October 2025</strong> as a <strong>hybrid event</strong> at <strong>Daejeon, South
+                        Korea</strong>. The workshop will occur on <strong>Wednesday October 8th, 2025.</strong></em>
+                </p>
+            </blockquote>
+        </section> -->
+
+        <section id="updates" class="page-header">
+            <h2><strong>Updates and Announcements</strong></h2>
+            <ul>
+                <li><strong>September 30th, 2025:</strong> Deadline to submit the presentation materials for presenting authors is October 5th 2025. Formatting and presentation details available below.</li>
+                <li><strong>September 30th, 2025:</strong> Workshop Program is Finalized.</li>
+                    <li>
+                        <strong>December 9th, 2025:</strong>
+                        XRStand 2025 Recording -- click here:
+                        <a href="https://youtu.be/6TGDVTBICNc" target="_blank" rel="noopener noreferrer">
+                            <img
+                            src="https://img.youtube.com/vi/6TGDVTBICNc/hqdefault.jpg"
+                            alt="XRStand 2025 Recording – YouTube preview"
+                            style="max-width:320px; height:auto; border-radius:8px; display:block; margin-top:0.5rem;"
+                            >
+                        </a>
+                        </li>               
+            </section>
+
+                <!-- Guide for Poster & Lightning Talk Presenters (Updated) -->
+        <section class="mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-blue-700 mb-4 pb-2 border-b-2 border-blue-100">Guide for Poster & Lightning Talk Presenters</h2>
+            <p class="text-gray-700 mb-6">This section provides specific, updated instructions for accepted authors regarding poster display and lightning talks for the XRStand 2025 Workshop.</p>
+
+            <div class="space-y-6">
+                <!-- Poster Section -->
+                <div class="p-5 bg-blue-50 rounded-xl">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-3">1. Poster Display Requirements</h3>
+                    <ul class="space-y-2 text-gray-700 custom-list pl-0">
+                        <li>
+                            <strong class="text-gray-900">Poster Size:</strong> The expected size is the A0 portrait format.
+                        </li>
+                        <li>
+                            <strong class="text-gray-900">Display Duration:</strong> Posters will be displayed for the duration of the XRStand 2025 Workshop (14:00 to 17:30 in Room 102).
+                        </li>
+                        <li>
+                            <strong class="text-gray-900">Required Content:</strong> Ensure your poster clearly displays components such as: title, author names/affiliations, introduction, methods, results, and conclusions.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Lightning Talk Section -->
+                <div class="p-5 bg-green-50 rounded-xl">
+                    <h3 class="text-xl font-semibold text-green-900 mb-3">2. Preparing Your Lightning Talk</h3>
+                    <!-- <p class="text-gray-700 italic mb-3">Please note the potential for a schedule change impacting the format (see below).</p> -->
+                    <ul class="space-y-3 text-gray-700 custom-list pl-0">
+                        <li>
+                            <strong class="text-gray-900">Deadline:</strong> All talk slides must be submitted by <span class="font-bold text-red-600">October 5th</span>.
+                        </li>
+                        <li>
+                            <strong class="text-gray-900">Submission Link:</strong> Upload your presentation materials (slides) via the secure link provided through email and here: <a href="https://aist.ent.box.com/f/19892cb2d0bb4182959079f5cfb4c6c4" target="_blank" class="text-blue-500 hover:text-blue-700 underline break-words">https://aist.ent.box.com/f/19892cb2d0bb4182959079f5cfb4c6c4</a>
+                        </li>
+                        <li>
+                            <strong class="text-gray-900">Template (Optional):</strong> An optional presentation template has been prepared to help maintain a consistent visual style for the workshop (shared through email). Use is encouraged but not mandatory.
+                        </li>
+                        <li>
+                            <strong class="text-gray-900">Technical Note:</strong> All slides must be preloaded onto the organizers’ PC for projection. Please ensure your submission is in a standard format (e.g., ppt or PDF).
+                        </li>
+                    </ul>
+
+                    <!-- <div class="mt-5 p-4 bg-yellow-100 border-l-4 border-yellow-500 rounded-lg">
+                        <h4 class="font-bold text-lg text-yellow-800">Important: Potential Combined Oral Session</h4>
+                        <p class="text-yellow-700 mt-2">
+                            Due to venue constraints, there is a possibility that the lightning talks and poster session will be combined into a single oral session.
+                        </p>
+                        <p class="text-yellow-700 mt-1">
+                            **If this scenario is confirmed:**
+                            <ul class="list-disc ml-6 mt-1">
+                                <li>Each presenter will have **6 minutes** for their talk, including time for Q&A.</li>
+                                <li>Your posters will be displayed in the **main conference exhibition area** instead of at the workshop itself.</li>
+                            </ul>
+                            We will confirm the final format as soon as a decision has been made.
+                        </p>
+                    </div> -->
+
+                    <!-- <div class="mt-4 p-3 bg-red-100 rounded-lg">
+                        <p class="text-red-800">
+                            <strong class="font-bold">Original Talk Duration:</strong> If the combined session is NOT implemented, the talk length remains **3 minutes maximum**. Please prepare your slides to be flexible between the 3-minute and 6-minute formats.
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="wordCloud" class="page-header">
+            <h2>Word Cloud Of Most Common Topics Across Accepted Submissions</h2>
+                    <img src="images/wordcloud.png" alt=""
+            style="width: 60%; height: auto; margin: 10px auto 0; border: 5px solid #ccc; border-radius: 5px; border-color:rgb(54, 50, 50); display: block;">
+                    
+        </section>
+
+        <section id="program" class="page-header">
+            <h2><strong>XRStand 2025 Program</strong></h2>
+            <div style="padding: 20px; background-color: #f0f0f0; border-left: 5px solid #888888;">
+                <style>
+                    .program-table thead {
+                    background-color: #dcdcdc;
+                }
+
+                .program-table th,
+                .program-table td {
+                    vertical-align: top;
+                    color: #666666;
+                }
+
+                .program-table th:nth-child(1),
+                .program-table td:nth-child(1) {
+                    width: 15%;
+                }
+
+                .program-table th:nth-child(2),
+                .program-table td:nth-child(2) {
+                    width: 55%;
+                }
+
+                .program-table th:nth-child(3),
+                .program-table td:nth-child(3) {
+                    width: 30%;
+                }
+
+                .program-meta {
+                    margin: 0 0 16px 0;
+                    padding: 10px 12px;
+                    background: #fff;
+                    border: 1px solid #e0e0e0;
+                    color: #444;
+                }
+            </style>
+
+            <!-- Updated date, time window, and location per conference grid -->
+            <div class="program-meta"><strong>Date:</strong> Oct 8, 2025 (Wed.) &nbsp;|&nbsp; <strong>Time:</strong> 2:00 PM – 5:30 PM &nbsp;|&nbsp; <strong>Location:</strong> Room 102</div>
+
+            <h3>Session I: Welcome and Keynote</h3>
+            <table class="table table-striped program-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Title</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2:00 PM – 2:05 PM</td>
+                        <td>Welcome and Introduction</td>
+                        <td>Ryosuke Ichikari (AIST, Japan)</td>
+                    </tr>
+                    <tr>
+                        <td>2:05 PM – 2:15 PM</td>
+                        <td>Opening Remarks: Revisit historical ties between ISMAR and standardization</td>
+                        <td>Takeshi Kurata (AIST, Japan)</td>
+                    </tr>
+                    <tr>
+                        <td>2:15 PM – 2:50 PM</td>
+                        <td>Keynote: Progress in Virtual Worlds Interoperability Standards and Metaverse Standardization Forum</td>
+                        <td>Christine Perey (Spime Wrangler, Switzerland)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Session II: Lightning Talks & Poster Session</h3>
+            <table class="table table-striped program-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Title</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2:50 PM – 3:20 PM</td>
+                        <td>Lightning Talk Session</td>
+                        <td>Poster Presenters</td>
+                    </tr>
+                    <tr>
+                        <td>3:20 PM – 3:50 PM</td>
+                        <!-- <td>Poster Session</td> -->
+                        <td colspan="2" class="lightning-cell">
+                            <div><strong>Poster Session</strong></div>
+                            <ul class="accepted-grid">
+                                <li class="paper-card">
+                                    <strong>Designing xDR Challenge 2025 to Evaluate Localization Performance of Smartphone with Navigation Robot for People with Visual Impairment</strong>
+                                    <em>Satoki Ogiso, Ryosuke Ichikari, Akihiro Sato, Daisuke Sato, Takahiro Miura, Masakatsu Kourogi, Takashi Okuma, Takeshi Tanabe, Takeshi Kurata</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>VRM: Concept and Implementation of an Application-Interoperable Avatar Format</strong>
+                                    <em>Shinnosuke Iwaki, Takeshi Kurata</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>Standardization for Social VR: Balancing Expressive Diversity, Interoperability, and Creator Participation</strong>
+                                    <em>Yuto Kunitake, Minwoo Song</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>A Proposal for a Common Platform and Methodology for Evaluating xR Experiences</strong>
+                                    <em>Junji Ohyama</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>Hand/Finger gesture standardization for FCI(Finger-Computer-Interface) in XR</strong>
+                                    <em>Kyungmin Kim, Sehyeok Yoo, Youngho Chai</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>Spatio-Temporal Mixed and Augmented Reality Experience Description for Interactive Playback</strong>
+                                    <em>Dooyoung Kim, Woontack Woo</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>Human-to-Avatar Face Representation of Extended Reality (XR) Glasses Wearers for Communication</strong>
+                                    <em>Seoyoung Kang, Seokhwan Yang, Woontack Woo</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>Toward a Human-Centered Framework for Standardization in eXtended Reality (XR): Development, Measurement, and Evaluation</strong>
+                                    <em>Christos Gkoumas, Eleftherios Triantafyllidis, Alexandros Rouchitsas</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>Mutual Space Representation Standardization for Mixed and Augmented Reality Remote Collaboration</strong>
+                                    <em>Seonji Kim, Woontack Woo</em>
+                                </li>
+                                <li class="paper-card">
+                                    <strong>No Terminology, No Standards, No Future: Semantic Interoperability for Bridging Stakeholders in XR</strong>
+                                    <em>Takeshi Kurata</em>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Session III: Coffee Break</h3>
+            <table class="table table-striped program-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Title</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>3:50 PM – 4:00 PM</td>
+                        <td>Coffee Break</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Session IV: Invited Talks</h3>
+            <table class="table table-striped program-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Title</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4:00 PM – 4:35 PM</td>
+                        <td>Invited Talk: Revisiting Milgram &amp; Kishino’s Reality–Virtuality Continuum</td>
+                        <td>Missie Smith (Auburn University, USA)</td>
+                    </tr>
+                    <tr>
+                        <td>4:35 PM – 5:10 PM</td>
+                        <td>Invited Talk: Latest Trends of Large-scale Metaverse Platforms and Perspectives on Standardization</td>
+                        <td>Takefumi Hiraki (Cluster, Inc. / University of Tsukuba, Japan)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Session V: Discussion &amp; Closing</h3>
+            <table class="table table-striped program-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Title</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5:10 PM – 5:30 PM</td>
+                        <td>Discussion: Invitation to Standardization Committee Booth</td>
+                        <td>Seonji Kim (KAIST, South Korea)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+        <div id="important-dates" class="page-header">
+            <h2>Important Dates</h2>
+            <ul>
+                <li><strong>Paper Submission Deadline:</strong>   <em><s>July 14th, 2025 (23:59 AoE, Monday)</s> → July 23rd, 2025 (23:59 AoE, Wednesday)</em></li>
+                <li><strong>Notification of Acceptance:</strong> <em><s>August 1st, 2025 (23:59 AoE, Friday)</s> → Aug 8th, 2025 (23:59 AoE, Friday)</em></li>
+                <li><strong>Camera-Ready Submission:</strong> <em><s>August 15th, 2025 (23:59 AoE, Friday)</s></em></li>
+                <li><strong>Workshop Date:</strong> <em>October 8th, 2025 </em> (Held in conjunction with ISMAR 2025)
+                </li>
+            </ul>
+        </div>
+
+        <section id="call-for-paper" class="page-header">
+            <h2>Topics of Interest</h2>
+            <strong>The XRStand 2025</strong> workshop welcomes contributions related to key areas (but not limited to) including:
+            <ul>
+                <li>Proposals, case studies, or reports <strong>on datasets, evaluation metrics, benchmarks, or competitions</strong> that support XR research and development.</li>
+                <li><strong>Activities involving Open-source projects, APIs, and tools</strong> that advance interoperability and reproducibility across XR applications.</li>
+                <li><strong>Terminology definitions, taxonomies, and conceptual frameworks in XR (e.g., Reality–Virtuality continuum)</strong>, including reflections inspired by the ISMAR 2024 panel “xR is Dead, Long Live XR!”.</li>
+                <li>Explorations and overviews of <strong>forum standards, de facto standards, and de jure standards</strong>, and their roles in shaping XR ecosystems.</li>
+            </ul>
+        </section>
+
+        <section id="submission-guidelines" class="page-header">
+            <h2>Submission Guidelines</h2>
+            <p>
+               Submissions must follow the IEEE VGTC formatting guidelines and will be peer-reviewed based on relevance, originality,
+               and contribution diversity. XRStand invites full-length and short‐format papers (up to 4 pages, excluding references). Acceptable formats include:
+            </p>
+                    <ol>
+                        <li><strong>Research Papers:</strong> describing novel XR work with an explicit standardization angle.</li>
+                        <li><strong>Survey & Vision Papers:</strong> overviews of existing XR standards, taxonomies, or roadmaps.</li>
+                        <li><strong>Position papers:</strong> reflecting on a conceptual challenge in XR standardization.</li>
+                        <li><strong>Project papers:</strong> reports on community-driven or industry-led standardization efforts.</li>
+                    </ol>
+                
+            <p>
+                All accepted papers (up to 4 pages, excluding references) will be published in the <strong>ISMAR 2025 Abstracts & Workshop Proceedings</strong> and made available 
+                via the <strong>IEEE Xplore Digital Library</strong>. <strong>At least one author from 
+                each accepted submission must register for the workshop</strong> and present their work at <strong>XRStand</strong>.
+            </p>
+
+            <h3>Formatting</h3>
+            <p>
+                All submissions should be <strong>4 pages of length excluding references</strong>, and use the <a href="https://tc.computer.org/vgtc/publications/conference/"
+                    target="_blank">IEEE VGTC formatting template</a> and be submitted in PDF format. Submissions must
+                be original, unpublished, and not currently under review elsewhere.
+                Papers that fail to comply with formatting or length limits will be desk-rejected.
+            </p>
+
+            <h3>Review Process</h3>
+            <p>
+                All the submissions will be <strong>single blind</strong> and reviewed by the workshop organizers and program
+                committee.
+                Each submission will undergo <strong>peer review by at least two domain experts</strong>.
+                Accepted manuscripts will be accepted as posters, and all presenters are expected to give a lightning talk before their poster presentation.
+                Acceptance does not restrict future publications authors may present extended or modified versions
+                of their work as full papers, short papers, or journal articles, provided they include significant
+                new contributions beyond the original workshop submission. The review criteria will include but not limited to
+                Originality; relevance to workshop themes; technical rigor or conceptual clarity; potential impact on XR community.
+            </p>
+            <p>
+                <strong>Review decisions are final.</strong> Authors of accepted papers will need to submit a revised
+                version that addresses the feedback provided in the reviews before official acceptance to the workshop.
+            </p>
+
+
+            <h3>Submission Site</h3><a href="https://forms.office.com/r/FDx1kYuakR" target="_blank">Submit via Microsoft Forms</a>
+
+        </section>
+
+        <section id="organizers" class="page-header">
+            <h2>Organizers</h2>
+            <h3>General Chairs</h3>
+            <ul>
+                <li>
+                    <strong>
+                        <a href="http://eecs.ucf.edu/isuelab/people/yohan.php">Yahya (Yohan) Hmaiti</a>
+                    </strong>
+                    (University of Central Florida, USA)
+                </li>
+                <li>
+                    <strong>
+                        <a href="https://researchmap.jp/r_1kr?lang=en">Ryosuke Ichikari</a>
+                    </strong>
+                    (Research Institute on Human and Societal Augmentation, AIST, Japan)
+                </li>
+                <li>
+                    <strong>
+                        <a href="https://www.linkedin.com/in/seonjikim">Seonji Kim</a>
+                    </strong>
+                    (KAIST, South Korea)
+                </li>
+            </ul>
+
+            <h3>Program Committee</h3>
+           <ul>
+            <li>
+                <strong>Takeshi Kurata</strong>
+                (Research Institute on Human and Societal Augmentation, AIST, Japan)
+            </li>
+            <li>
+                <strong>Trond Nilsen</strong>
+                (University of Washington, USA)
+            </li>
+            <li>
+                <strong>Christine Perey</strong>
+                (Spime Wrangler, Switzerland)
+            </li>
+            <li>
+                <strong>Takefumi Hiraki</strong>
+                (Cluster, Inc., Japan)
+            </li>
+            <li>
+                <strong>Seoyoung Kang</strong>
+                (KAIST, South Korea)
+            </li>
+            <li>
+                <strong>Dooyoung Kim</strong>
+                (KAIST, South Korea)
+            </li>
+            <li>
+                <strong>Kiyoshi Kiyokawa</strong>
+                (NAIST, Japan)
+            </li>
+            <li>
+                <strong>Walterio W. Mayol-Cuevas</strong>
+                (University of Bristol, UK)
+            </li>
+            <li>
+                <strong>Weitao Song</strong>
+                (Beijing Institute of Technology, China)
+            </li>
+            <li>
+                <strong>Clemens Arth</strong>
+                (Graz University of Technology, Austria)
+            </li>
+        </ul>
+        </section>
+       
+
+        <footer style="text-align:center;">
+            <!-- <img src="images/trustxr-logo.png" alt="TRUST-XR Logo" style="max-height: 40px; margin-bottom: 10px;"><br> -->
+            <p>&copy; 2025 XRStand Workshop. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="./theme/jquery.min.js"></script>
+    <script src="./theme/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top - 70
+                }, 800);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
